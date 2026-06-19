@@ -61,6 +61,5 @@ WHERE u.user_id = 1
 GROUP BY u.user_id, u.username, u.email, u.is_active, r.role_name;
 
 -- ============================================================================
--- Expected result: permission_count = 25 (all permissions)
 -- Email: admin@smartretail.com | Password: Admin@1234
 -- ============================================================================
