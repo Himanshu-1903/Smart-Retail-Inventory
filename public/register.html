@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Create an account for Smart Retail Inventory Management System" />
+    <title>Register | Smart Retail Inventory</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/forms.css" />
+  </head>
+  <body>
+    <div class="auth-page">
+      <div class="auth-card">
+        <div class="auth-header">
+          <div class="auth-logo">
+            <svg width="44" height="44" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" rx="14" fill="url(#g2)" />
+              <path
+                d="M14 24L22 32L34 16"
+                stroke="white"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient id="g2" x1="0" y1="0" x2="48" y2="48">
+                  <stop stop-color="#6366f1" />
+                  <stop offset="1" stop-color="#8b5cf6" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <span class="auth-logo-text">SmartRetail</span>
+          </div>
+          <h2>Create Account</h2>
+          <p>Get started with inventory management</p>
+        </div>
+
+        <div class="auth-alert" id="register-alert"></div>
+
+        <form class="auth-form" id="register-form" autocomplete="on">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="register-first-name">First Name</label>
+              <input type="text" id="register-first-name" placeholder="Rajesh" required />
+            </div>
+            <div class="form-group">
+              <label for="register-last-name">Last Name</label>
+              <input type="text" id="register-last-name" placeholder="Kumar" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="register-email">Email Address</label>
+            <input type="email" id="register-email" placeholder="you@company.com" required autocomplete="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="register-phone">Phone (optional)</label>
+            <input type="tel" id="register-phone" placeholder="+91-9876543210" />
+          </div>
+
+          <div class="form-group">
+            <label for="register-password">Password</label>
+            <input
+              type="password"
+              id="register-password"
+              placeholder="Min 8 chars, 1 upper, 1 lower, 1 digit"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="register-confirm-password">Confirm Password</label>
+            <input type="password" id="register-confirm-password" placeholder="Re-enter your password" required />
+          </div>
+
+          <button type="submit" class="auth-btn" id="register-btn">
+            <span class="btn-text">Create Account</span>
+          </button>
+        </form>
+
+        <div class="auth-footer">Already have an account? <a href="/login.html">Sign in</a></div>
+      </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/auth.js"></script>
+  </body>
+</html>
