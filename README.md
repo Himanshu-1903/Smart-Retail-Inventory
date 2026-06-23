@@ -26,7 +26,6 @@
 - [API Endpoints Summary](#-api-endpoints-summary)
 - [Project Structure](#-project-structure)
 - [Screenshots](#-screenshots)
-- [Contributing](#-contributing)
 - [Documentation](#-documentation)
 - [License](#-license)
 - [Author](#-author)
@@ -474,38 +473,6 @@ smart-retail-inventory/
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Follow these steps:
-
-1. **Fork** the repository
-2. **Create** a feature branch
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-3. **Commit** your changes using conventional commits
-   ```bash
-   git commit -m "feat: add amazing feature"
-   ```
-4. **Push** to your branch
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-5. **Open** a Pull Request against the `develop` branch
-
-### Commit Convention
-
-| Prefix      | Purpose               |
-| ----------- | --------------------- |
-| `feat:`     | New feature           |
-| `fix:`      | Bug fix               |
-| `docs:`     | Documentation changes |
-| `refactor:` | Code refactoring      |
-| `test:`     | Adding/updating tests |
-| `chore:`    | Build/config changes  |
-
----
-
 ## 📚 Documentation
 
 Detailed documentation is available in the [`docs/`](./docs/) directory:
@@ -554,11 +521,5 @@ SOFTWARE.
 
 **Himanshu**
 
-- GitHub: [@himanshu](https://github.com/himanshu)
-- LinkedIn: [Himanshu](https://linkedin.com/in/himanshu)
-
----
-
-<p align="center">
-  Made with ❤️ for learning and building
-</p>
+- GitHub: [@Himanshu-1903](https://github.com/Himanshu-1903)
+- LinkedIn: [Himanshu Vitthalani](https://www.linkedin.com/in/himanshu-vitthalani-748310313/)
