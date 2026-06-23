@@ -62,14 +62,14 @@ INSERT INTO role_permissions (role_id, permission_id) VALUES
 (3, 17), (3, 18), (3, 19);
 
 -- ============================================================================
--- USERS (password for all: Password123!)
+-- USERS (password for all: Admin@1234)
 -- ============================================================================
 INSERT INTO users (user_id, username, email, password_hash, first_name, last_name, phone, is_active) VALUES
-(1, 'admin', 'admin@smartretail.com', '$2b$12$85YFicOS/llHlTNkz354Yu0ok/xY3lInFWHpE8872v2qO0i/Q1SJS', 'Rajesh', 'Kumar', '+91-9876543210', TRUE),
-(2, 'manager', 'manager@smartretail.com', '$2b$12$85YFicOS/llHlTNkz354Yu0ok/xY3lInFWHpE8872v2qO0i/Q1SJS', 'Priya', 'Sharma', '+91-9876543211', TRUE),
-(3, 'warehouse1', 'warehouse1@smartretail.com', '$2b$12$85YFicOS/llHlTNkz354Yu0ok/xY3lInFWHpE8872v2qO0i/Q1SJS', 'Amit', 'Patel', '+91-9876543212', TRUE),
-(4, 'warehouse2', 'warehouse2@smartretail.com', '$2b$12$85YFicOS/llHlTNkz354Yu0ok/xY3lInFWHpE8872v2qO0i/Q1SJS', 'Sneha', 'Reddy', '+91-9876543213', TRUE),
-(5, 'manager2', 'manager2@smartretail.com', '$2b$12$85YFicOS/llHlTNkz354Yu0ok/xY3lInFWHpE8872v2qO0i/Q1SJS', 'Vikram', 'Singh', '+91-9876543214', TRUE);
+(1, 'admin', 'admin@smartretail.com', '$2b$12$e1PRHgDNpUPFBZjWW.MjQe5JtKk3YvxFwR.NFmPqH0sSMl5EQ4Lcu', 'Rajesh', 'Kumar', '+91-9876543210', TRUE),
+(2, 'manager', 'manager@smartretail.com', '$2b$12$e1PRHgDNpUPFBZjWW.MjQe5JtKk3YvxFwR.NFmPqH0sSMl5EQ4Lcu', 'Priya', 'Sharma', '+91-9876543211', TRUE),
+(3, 'warehouse1', 'warehouse1@smartretail.com', '$2b$12$e1PRHgDNpUPFBZjWW.MjQe5JtKk3YvxFwR.NFmPqH0sSMl5EQ4Lcu', 'Amit', 'Patel', '+91-9876543212', TRUE),
+(4, 'warehouse2', 'warehouse2@smartretail.com', '$2b$12$e1PRHgDNpUPFBZjWW.MjQe5JtKk3YvxFwR.NFmPqH0sSMl5EQ4Lcu', 'Sneha', 'Reddy', '+91-9876543213', TRUE),
+(5, 'manager2', 'manager2@smartretail.com', '$2b$12$e1PRHgDNpUPFBZjWW.MjQe5JtKk3YvxFwR.NFmPqH0sSMl5EQ4Lcu', 'Vikram', 'Singh', '+91-9876543214', TRUE);
 
 -- ============================================================================
 -- USER_ROLES

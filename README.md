@@ -263,7 +263,7 @@ After running the seed data script, you can log in with:
 | Field        | Value                       |
 | ------------ | --------------------------- |
 | **Email**    | `admin@smartretail.com`     |
-| **Password** | `Password123!`              |
+| **Password** | `Admin@1234`              |
 | **Role**     | Administrator (full access) |
 
 > 🔒 **Security Note:** Change the default password immediately in production environments.
