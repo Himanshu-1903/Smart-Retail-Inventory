@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/badge/MySQL-8+-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
   <img src="https://img.shields.io/badge/Express.js-4.x-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
+  <a href="https://smart-retail-inventory.onrender.com"><img src="https://img.shields.io/badge/Live_Demo-Online-success?style=for-the-badge&logo=render" alt="Live Demo"></a>
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" alt="PRs Welcome">
 </p>
 
@@ -22,7 +23,7 @@
 - [Prerequisites](#-prerequisites)
 - [Installation & Setup](#-installation--setup)
 - [Database Setup](#-database-setup)
-- [Default Credentials](#-default-credentials)
+- [Live Demo & Credentials](#-live-demo--credentials)
 - [API Endpoints Summary](#-api-endpoints-summary)
 - [Project Structure](#-project-structure)
 - [License](#-license)
@@ -254,17 +255,21 @@ The server will start at `http://localhost:3000`
 
 ---
 
-## 🔑 Default Credentials
+## 🌐 Live Demo & Credentials
 
-After running the seed data script, you can log in with:
+The application is deployed live and hosted on Render. You can access the live dashboard here:
+
+👉 **[Live Demo: Smart Retail Inventory](https://smart-retail-inventory.onrender.com)**
+
+To test the live application without compromising administrative data, please use the following restricted demo credentials:
 
 | Field        | Value                       |
 | ------------ | --------------------------- |
-| **Email**    | `admin@smartretail.com`     |
-| **Password** | `Admin@1234`              |
-| **Role**     | Administrator (full access) |
+| **Email**    | `demo@smartretail.com`      |
+| **Password** | `Demo@1234`                 |
+| **Role**     | Warehouse Staff (Restricted)|
 
-> 🔒 **Security Note:** Change the default password immediately in production environments.
+> 🔒 **Security Note:** The root administrative credentials are intentionally omitted from public documentation to prevent unauthorized database manipulation on the live demo server.
 
 ---
 
