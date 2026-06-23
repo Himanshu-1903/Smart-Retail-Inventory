@@ -14,7 +14,8 @@ const pool = mysql.createPool({
   keepAliveInitialDelay: 10000,
   multipleStatements: false,
   dateStrings: true,
-  typeCast: true
+  typeCast: true,
+  ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : undefined
 });
 
 // Test connection on startup
