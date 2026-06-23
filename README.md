@@ -25,8 +25,6 @@
 - [Default Credentials](#-default-credentials)
 - [API Endpoints Summary](#-api-endpoints-summary)
 - [Project Structure](#-project-structure)
-- [Screenshots](#-screenshots)
-- [Documentation](#-documentation)
 - [License](#-license)
 - [Author](#-author)
 
@@ -453,37 +451,6 @@ smart-retail-inventory/
 ├── server.js                     # Entry point
 └── README.md
 ```
-
----
-
-## 📸 Screenshots
-
-> Screenshots will be added once the UI is finalized.
-
-| Screen              | Description                                                               |
-| ------------------- | ------------------------------------------------------------------------- |
-| **Dashboard**       | Main analytics dashboard with KPI cards, revenue charts, and stock alerts |
-| **Product List**    | Paginated product grid with search, filter, and sort capabilities         |
-| **Purchase Order**  | PO creation form with supplier selection and line item management         |
-| **Sales Order**     | SO creation with customer selection, product picker, and auto-pricing     |
-| **Inventory View**  | Multi-warehouse stock levels with visual indicators for low stock         |
-| **Reports**         | Inventory valuation and ABC analysis reports with exportable tables       |
-| **User Management** | Admin panel for managing users, roles, and permissions                    |
-| **Audit Trail**     | Searchable audit log showing all system modifications                     |
-
----
-
-## 📚 Documentation
-
-Detailed documentation is available in the [`docs/`](./docs/) directory:
-
-- [📐 Architecture](./docs/ARCHITECTURE.md) — System design and data flow
-- [🗄️ Database Design](./docs/DATABASE_DESIGN.md) — Schema, normalization, and ER diagrams
-- [📡 API Documentation](./docs/API_DOCUMENTATION.md) — Complete REST API reference
-- [⚡ Indexing Strategy](./docs/INDEXING_STRATEGY.md) — Performance optimization
-- [🎯 Interview Preparation](./docs/INTERVIEW_PREPARATION.md) — 50 technical Q&A
-- [📝 Resume Bullets](./docs/RESUME_BULLETS.md) — ATS-friendly project descriptions
-- [🐙 GitHub Optimization](./docs/GITHUB_OPTIMIZATION.md) — Repository optimization guide
 
 ---
 
